@@ -1,0 +1,26 @@
+[
+    {
+        "id" : 1,
+        "title" : "Harry Potter",
+        "description": " Harry le magicien",
+        "date": "2001-12-12"
+    },
+    {
+        "id" : 2,
+        "title" : "Chuck Norris, le retour",
+        "description": "Petite victime",
+        "date": "1896-06-02"
+    },
+    {
+        "id" : 3,
+        "title" : "Hulk",
+        "description": "Geant vert un peu vénére",
+        "date": "2017-12-20"
+    },
+    {
+        "id" : 4,
+        "title" : "Roger, la roulette russe",
+        "description": "il se shoote à l'alcool",
+        "date": "2014-02-09"
+    }
+]
