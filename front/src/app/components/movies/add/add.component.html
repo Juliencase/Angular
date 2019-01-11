@@ -1,0 +1,25 @@
+<!-- Add Movies form -->
+<form class="text-center border border-light p-5" [formGroup]="form" (ngSubmit)="onSave()">
+
+  <p class="h4 mb-4">Ajouter un film</p>
+
+  <!-- title -->
+  <p>Titre du film :</p>
+  <input type="text" required formControlName="title" id="defaultContactFormName" class="form-control mb-4" placeholder="Titre">
+
+  <!-- date -->
+  <p>Date de sortie :</p>
+  <input type="date" required formControlName="date" id="defaultContactFormName" class="form-control mb-4">
+
+
+  <!-- Description -->
+  <div class="form-group">
+      <p>Description :</p>
+      <textarea class="form-control rounded-0" formControlName="description" id="exampleFormControlTextarea2" rows="3" placeholder="Description du film"></textarea>
+  </div>
+
+  <!-- Send button -->
+  <button [disabled]="!form.valid" class="btn blue-gradient btn-block" type="submit" >Send</button>
+
+</form>
+<!-- Add Movies form -->
